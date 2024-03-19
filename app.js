@@ -10,9 +10,7 @@ app.use(express.urlencoded({extended: true}));
 // app.use(route);
 
 app.get('/',(req,res)=>{
-    res.send({
-        message:"Hello World!"
-    });
+    console.log(`app run in port : ${ports}`)
 })
 
 app.listen(ports,()=>{
