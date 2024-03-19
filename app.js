@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: true}));
 // app.use(route);
 
 app.get('/',(req,res)=>{
-    res.json({
+    res.send({
         message:"Hello World!"
     });
 })
