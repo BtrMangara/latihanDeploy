@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const ports = 4000 || process.env.PORTS
+const ports = 80 || process.env.PORTS
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
