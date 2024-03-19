@@ -10,5 +10,5 @@ app.get('/test',(req,res)=>{
 })
 
 app.listen(ports,()=>{
-     console.log(`App listening on port ${port}`);
+     console.log(`App listening on port ${ports}`);
 })
