@@ -15,3 +15,6 @@ app.get('/test',(req,res)=>{
         message:"Hello World!"
     });
 })
+app.listen(ports,"0.0.0.0",function(){
+     console.log(`App listening on port${ports}`);
+})
