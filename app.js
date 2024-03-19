@@ -16,5 +16,5 @@ app.get('/test',(req,res)=>{
     });
 })
 app.listen(ports,"0.0.0.0",function(){
-     console.log(`App listening on port ${ports}`);
+     console.log(`App listening on port http://localhost:${ports}`);
 })
